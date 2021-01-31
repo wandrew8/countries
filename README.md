@@ -14,3 +14,11 @@
     Ex. getNameByCode("KH" || "KHM") // "Cambodia"
 
 ## How to use
+
+const countriesGetter = require("countries-getter")
+
+const countryCode = countriesGetter.getNameByCode("KH");
+console.log(countryCode);
+
+const countryName = countriesGetter.getCodeByName("Cambodia");
+console.log(countryName);

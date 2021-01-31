@@ -1,5 +1,6 @@
 const { getCodeByName } = require('./functions');
 const { getNameByCode } = require('./functions');
 
-console.log(getCodeByName("Cambodia"))
-console.log(getNameByCode("DZA"))
+
+module.exports.getCodeByName = getCodeByName;
+module.exports.getNameByCode = getNameByCode;

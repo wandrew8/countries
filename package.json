@@ -1,0 +1,22 @@
+{
+  "name": "countries-getter",
+  "version": "1.0.0",
+  "description": "NPM Package for getting country info and other Country data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandrew8/countries.git"
+  },
+  "keywords": [
+    "country"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wandrew8/countries/issues"
+  },
+  "homepage": "https://github.com/wandrew8/countries#readme"
+}

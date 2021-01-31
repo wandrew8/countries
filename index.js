@@ -1,17 +1,5 @@
-const countryGetter = (options) {
-    let images = document.querySelectorAll(".shadow");
-    if (options.shadow_type === "hard") {
-        options.shadow_type = "0px"
-    } else {
-        options.shadow_type = "15px"
-    }
+const { getCodeByName } = require('./functions');
+const { getNameByCode } = require('./functions');
 
-    images.forEach(image => {
-        image.style.boxShadow = `10px 10px ${options.shadow_type} 1px rgba(0,0,0,0.12)`;
-        if(options.padding) {
-            image.stype.padding = "1em";
-        }
-    })
-}
-
-module.exports.shadowWizard = countryGetter;
+console.log(getCodeByName("Cambodia"))
+console.log(getNameByCode("DZA"))
